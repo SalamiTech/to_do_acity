@@ -6,7 +6,7 @@ class TodoDataBase {
   // reference our box
   final _myBox = Hive.box('mybox');
 
-  // run this method if this is the 1st time ever opening this app
+  // run this method if this is the 1st time ever opening this ap
   void createInitialData() {
     toDoList = [
       ["Make Tutorial", false],
