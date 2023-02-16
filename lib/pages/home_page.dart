@@ -25,7 +25,7 @@ class _HomePageState extends State<HomePage> {
     if (_myBox.get("TODOLIST") == null) {
       db.createInitialData();
     } else {
-      // there already exists data
+      // there already exists data.
       db.loadData();
     }
 
